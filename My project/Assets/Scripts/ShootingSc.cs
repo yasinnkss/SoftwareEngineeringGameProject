@@ -49,8 +49,8 @@ public class ShootingSc : MonoBehaviour
     // merminin gönderileceði pozisyonu input alan ve o yöne mermi gönderen fonksiyon
     void shooting(Vector3 pos)
     {
-        Vector3 shootingPoint = gameObject.transform.position; // atýþýn yapýldýðý nokta
-        shootingPoint.y = 0.4f; // merminin yerden yüksekliðini sabitledim
+        Vector3 shootingPoint = gameObject.transform.position + ammoPrefab.transform.position; // atýþýn yapýldýðý nokta
+        shootingPoint.y = ammoPrefab.transform.position.y; // merminin yerden yüksekliðini sabitledim
         Vector3 fireSide = (pos - shootingPoint).normalized; // mousepos => GameObject.Find("Player").transform.position
         GameObject yeniMermi = Instantiate(ammoPrefab, shootingPoint, Quaternion.identity);
         yeniMermi.GetComponent<AmmoMove>().isPlayer = isPlayer; // Mermiyi ateþleyen kiþinin player olup olmadýðýný kontrol
