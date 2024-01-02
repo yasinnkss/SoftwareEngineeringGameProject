@@ -22,19 +22,22 @@ public class AmmoMove : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Mermi player yada enemy ile karþýlaþýnca
-        if (other.CompareTag("Enemy") && isPlayer)
+        if (other.CompareTag("Enemy"))
         {
+            Debug.Log("Girdi");
             other.gameObject.GetComponent<Enemy>().heal -= 20;//enemy objesindeki Enemy script içerisindeki heal deðerini eksiltir
         }
-        else if (other.CompareTag("Player") && !isPlayer)
+        else if (other.CompareTag("Player"))
         {
             other.gameObject.GetComponent<CharSpecs>().Heal -= 20;// player için de ayný durum
         }
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        Destroy(gameObject); // Merminin çarptýðý herhangi bir katý cisimde
-                             // yok olmasý için ekledim burayý ancak çalýþmadý bu fonksiyon
-    }
+        else
+        {
+            if (!other.CompareTag("bar"))
+            {
+                Destroy(gameObject);
+            }
 
+        }
+    }
 }
