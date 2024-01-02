@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
@@ -8,20 +9,20 @@ public class CharacterMovement : MonoBehaviour
     GameObject cam;
     Vector3 camOffset;
     Animator playerAnim;
-    ShootingSc mousePos;
+    Quaternion cAngle;
 
     float arrow;
     float upArrow;
     [SerializeField]
     private float speed = 5;
-
-
+    float verticalInput;
+    float horizontalInput;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        mousePos = gameObject.GetComponent<ShootingSc>();
+
         thisCharacther = gameObject.GetComponent<CharacterController>();// karakter kontrol componentini kullanacaðýz
         cam = GameObject.Find("Main Camera");// main kamerayý kullanacaðýz
         camOffset = cam.GetComponent<Transform>().position; // kamera pozsiyonunu kullanarak kamerayý takip ettireceðiz
@@ -31,6 +32,7 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Movement();//karakter hareket fonksiyonu
 
         Vector3 farePozisyon = Input.mousePosition;
@@ -60,11 +62,13 @@ public class CharacterMovement : MonoBehaviour
 
     void Movement()
     {
-        upArrow = Input.GetAxis("Vertical") * Time.deltaTime * speed;// S ve W tuþlarýný kullanarak -1("S") ve +1("W") deðerler döndürüyor.
-                                                                     // (Bizim oyunumuzda vertical Z eksenini ifade ediyor)
-        arrow = Input.GetAxis("Horizontal") * Time.deltaTime * -speed;// A ve D tuþlarýný kullanarak -1("A") ve +1("D") deðerler döndürüyor.
+        verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal");
+        upArrow = verticalInput * Time.deltaTime * speed;// S ve W tuþlarýný kullanarak -1("S") ve +1("W") deðerler döndürüyor.
+                                                         // (Bizim oyunumuzda vertical Z eksenini ifade ediyor)
+        arrow = horizontalInput * Time.deltaTime * speed;// A ve D tuþlarýný kullanarak -1("A") ve +1("D") deðerler döndürüyor.
 
-        thisCharacther.Move(transform.TransformDirection(new Vector3(arrow * Vector3.left.x, 0, upArrow * Vector3.forward.z)));
+        thisCharacther.Move(new Vector3(arrow, 0, upArrow));
 
         AnimasyonControl();
 
@@ -86,87 +90,143 @@ public class CharacterMovement : MonoBehaviour
     void AnimasyonControl()
     {   // Forward and back
 
-        if (Input.GetKey(KeyCode.A))
+        float angle = gameObject.GetComponent<Transform>().rotation.eulerAngles.y;
+        if (angle >= 315 || angle < 45)
         {
-            playerAnim.SetBool("rightRun", false); // hareket tuþlarý kullanýlýrken animasyonu baþlatýr
-            playerAnim.SetBool("leftRun", true);
-            if (Input.GetKeyUp(KeyCode.A))
+            Debug.Log(angle);
+            if (verticalInput > 0)
             {
-                playerAnim.SetBool("leftRun", false);
-            }
-            if (Input.GetKeyUp(KeyCode.W))
-            {
-                playerAnim.SetFloat("idle-run", 0f);
-            }
-            if (Input.GetKeyUp(KeyCode.D))
-            {
-                playerAnim.SetBool("rightRun", false);
-            }
-            if (Input.GetKeyUp(KeyCode.S))
-            {
-                playerAnim.SetFloat("idle-run", 0f);
-            }
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            playerAnim.SetBool("leftRun", false);
-            playerAnim.SetBool("rightRun", true); // hareket tuþlarý kullanýlýrken animasyonu baþlatýr
-            if (Input.GetKeyUp(KeyCode.A))
-            {
-                playerAnim.SetBool("leftRun", false);
-            }
-            if (Input.GetKeyUp(KeyCode.W))
-            {
-                playerAnim.SetFloat("idle-run", 0f);
-            }
-            if (Input.GetKeyUp(KeyCode.D))
-            {
-                playerAnim.SetBool("rightRun", false);
-            }
-            if (Input.GetKeyUp(KeyCode.S))
-            {
-                playerAnim.SetFloat("idle-run", 0f);
-            }
-        }
+                playerAnim.SetFloat("idle-run", 1f);
 
-        else if (Input.GetKey(KeyCode.W))
-        {
-            playerAnim.SetFloat("idle-run", 1f); // hareket tuþlarý kullanýlýrken animasyonu baþlatýr
-            if (Input.GetKeyUp(KeyCode.A))
-            {
+                playerAnim.SetBool("rightRun", false);
                 playerAnim.SetBool("leftRun", false);
             }
-            if (Input.GetKeyUp(KeyCode.W))
+            else if (horizontalInput > 0)
             {
+                playerAnim.SetBool("rightRun", true);
                 playerAnim.SetFloat("idle-run", 0f);
+
+                playerAnim.SetBool("leftRun", false);
             }
-            if (Input.GetKeyUp(KeyCode.D))
+            else if (horizontalInput < 0)
             {
+                playerAnim.SetBool("leftRun", true);
+                playerAnim.SetFloat("idle-run", 0f);
                 playerAnim.SetBool("rightRun", false);
+
             }
-            if (Input.GetKeyUp(KeyCode.S))
+            else if (verticalInput < 0)
             {
+                playerAnim.SetFloat("idle-run", 2f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else
+            {
+                // W tuþu býrakýldýðýnda veya deðeri 0 olduðunda ilgili animasyonu durdur
                 playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
             }
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (angle >= 45 && angle < 135)
         {
-            playerAnim.SetFloat("idle-run", 2f); // hareket tuþlarý kullanýlýrken animasyonu baþlatýr  
-            if (Input.GetKeyUp(KeyCode.A))
+            if (verticalInput > 0)
             {
-                playerAnim.SetBool("leftRun", false);
-            }
-            if (Input.GetKeyUp(KeyCode.W))
-            {
+                playerAnim.SetBool("leftRun", true);
                 playerAnim.SetFloat("idle-run", 0f);
-            }
-            if (Input.GetKeyUp(KeyCode.D))
-            {
                 playerAnim.SetBool("rightRun", false);
             }
-            if (Input.GetKeyUp(KeyCode.S))
+            else if (horizontalInput > 0)
+            {
+                playerAnim.SetFloat("idle-run", 1f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else if (horizontalInput < 0)
+            {
+                playerAnim.SetFloat("idle-run", 2f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else if (verticalInput < 0)
+            {
+                playerAnim.SetBool("rightRun", true);
+                playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else
+            {
+                // W tuþu býrakýldýðýnda veya deðeri 0 olduðunda ilgili animasyonu durdur
+                playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+        }
+        else if (angle >= 135 && angle < 225)
+        {
+            if (verticalInput > 0)
+            {
+                playerAnim.SetFloat("idle-run", 2f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else if (horizontalInput > 0)
+            {
+                playerAnim.SetBool("leftRun", true);
+                playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("rightRun", false);
+            }
+            else if (horizontalInput < 0)
+            {
+                playerAnim.SetBool("rightRun", true);
+                playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else if (verticalInput < 0)
+            {
+                playerAnim.SetFloat("idle-run", 1f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else
             {
                 playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+        }
+        else if (angle >= 225 && angle < 315)
+        {
+            if (verticalInput > 0)
+            {
+                playerAnim.SetBool("rightRun", true);
+                playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else if (horizontalInput > 0)
+            {
+                playerAnim.SetFloat("idle-run", 2f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else if (horizontalInput < 0)
+            {
+                playerAnim.SetFloat("idle-run", 1f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
+            }
+            else if (verticalInput < 0)
+            {
+                playerAnim.SetBool("leftRun", true);
+                playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("rightRun", false);
+            }
+            else
+            {
+                playerAnim.SetFloat("idle-run", 0f);
+                playerAnim.SetBool("rightRun", false);
+                playerAnim.SetBool("leftRun", false);
             }
         }
         else
@@ -178,4 +238,5 @@ public class CharacterMovement : MonoBehaviour
         // Left and Right
 
     }
+
 }

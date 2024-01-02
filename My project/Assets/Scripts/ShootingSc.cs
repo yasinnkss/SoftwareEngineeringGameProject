@@ -13,6 +13,7 @@ public class ShootingSc : MonoBehaviour
     private GameObject ammoPrefab; // mermi
     public float ammoSpeed = 1f;
     Vector3 positionWorldCoordinates;
+    Vector3 ammoPlayerBulletPos;
 
     private void Start()
     {
@@ -49,10 +50,12 @@ public class ShootingSc : MonoBehaviour
     // merminin gönderileceði pozisyonu input alan ve o yöne mermi gönderen fonksiyon
     void shooting(Vector3 pos)
     {
-        Vector3 shootingPoint = gameObject.transform.position + ammoPrefab.transform.position; // atýþýn yapýldýðý nokta
-        shootingPoint.y = ammoPrefab.transform.position.y; // merminin yerden yüksekliðini sabitledim
-        Vector3 fireSide = (pos - shootingPoint).normalized; // mousepos => GameObject.Find("Player").transform.position
-        GameObject yeniMermi = Instantiate(ammoPrefab, shootingPoint, Quaternion.identity);
+        //Vector3 shootingPoint = gameObject.transform.position + ammoPrefab.transform.position; // atýþýn yapýldýðý nokta
+        //shootingPoint.y = ammoPrefab.transform.position.y; // merminin yerden yüksekliðini sabitledim
+        ammoPlayerBulletPos = GameObject.Find("bulletPoint").transform.position;
+        ammoPlayerBulletPos.y = 3.578f;
+        Vector3 fireSide = (pos - ammoPlayerBulletPos).normalized; // mousepos => GameObject.Find("Player").transform.position
+        GameObject yeniMermi = Instantiate(ammoPrefab, ammoPlayerBulletPos, Quaternion.identity);
         yeniMermi.GetComponent<AmmoMove>().isPlayer = isPlayer; // Mermiyi ateþleyen kiþinin player olup olmadýðýný kontrol
                                                                 // ediyoruz eðer player ateþlediyse enemy'e hasar verecek
                                                                 // ateþleyen enemy ise enemy objeleri birbirine hasar veremeyecek
@@ -75,8 +78,8 @@ public class ShootingSc : MonoBehaviour
         {
             positionWorldCoordinates = hitInfo.point; // mouse pozisyonunu deðiþkene
                                                       // atýyoruz
-            positionWorldCoordinates.y = 0.4f;        // mouse pozisyonunun yerden yüksekliðini arttýrmam
-                                                      // gerekti
+            positionWorldCoordinates.y = 3.578f;        // mouse pozisyonunun yerden yüksekliðini arttýrmam
+                                                        // gerekti
         }
 
         return positionWorldCoordinates;
