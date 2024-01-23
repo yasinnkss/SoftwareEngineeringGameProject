@@ -1,0 +1,485 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1706007562118457, "dur": 1730603, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1706007562118828, "dur": 4111, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1706007562122940, "dur": 28831, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1706007562151774, "dur": 319183, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1706007562470959, "dur": 1377374, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1706007563848336, "dur": 724, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1706007563849731, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1706007562294634, "dur": 156725, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1706007562296127, "dur": 60500, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1706007562428075, "dur": 6446, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1706007562434524, "dur": 16827, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1706007562435545, "dur": 14934, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1706007562457759, "dur": 1885, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1706007562456680, "dur": 2996, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1706007563849857, "dur": 260, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1706007562521273, "dur":2568, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007562523849, "dur":278, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1706007562524142, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1706007562524166, "dur":523, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1706007562524720, "dur":698, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007562525418, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825269, "dur":234, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825503, "dur":97, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825600, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825607, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825617, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825620, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825629, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825632, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825638, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825640, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825648, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825650, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825659, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825662, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825667, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825669, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825676, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825678, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825684, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825686, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825693, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825695, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825700, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825703, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825710, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825722, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563825748, "dur":11243, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1706007562525480, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007562525481, "dur":6616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007562532105, "dur":14971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1706007562547081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007562547102, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1706007562549740, "dur":113638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007562663382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007562663392, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007562666380, "dur":180295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007562846680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007562846691, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007562848658, "dur":35620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007562884285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007562884298, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007562886470, "dur":102183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007562988685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007562988696, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007562990338, "dur":172271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007563162616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007563162628, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007563164829, "dur":169661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007563334497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007563334510, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007563336291, "dur":199753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007563536051, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706007563536064, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706007563537714, "dur":287622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562525276, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562525532, "dur":6575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562532108, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1706007562532438, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562535140, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1706007562538770, "dur":14318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706007562553093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562553106, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706007562555022, "dur":71387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562626416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562626429, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562628293, "dur":34665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562662965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562663008, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562664635, "dur":87046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562751688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562751701, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562753580, "dur":29970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562783557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562783570, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562785019, "dur":77104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562862131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562862150, "dur":7334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562869553, "dur":39452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562909011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562909024, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562910471, "dur":30200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562940677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007562940686, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007562942526, "dur":250914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007563193447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007563193460, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007563195079, "dur":65785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007563260871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007563260884, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007563262762, "dur":300228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007563562996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706007563563006, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706007563565662, "dur":259640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007562525224, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007562525494, "dur":6682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007562532177, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1706007562532455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007562547646, "dur":4805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1706007562552527, "dur":83446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007562635979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007562636026, "dur":5912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007562642045, "dur":255729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007562897779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007562897791, "dur":6353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007562904212, "dur":40866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007562945085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007562945096, "dur":5413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007562950575, "dur":58266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007563008848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007563008861, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007563010622, "dur":407922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007563418551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007563418563, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007563421719, "dur":120079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007563541804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706007563541816, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706007563543158, "dur":282122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562525038, "dur":399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562525437, "dur":6658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562532105, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1706007562532334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562535168, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1706007562538774, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1706007562539201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562539218, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1706007562541639, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1706007562541803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562541812, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1706007562543412, "dur":2880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562546297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562546913, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562549244, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1706007562549390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562549518, "dur":9844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1706007562559489, "dur":75260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562634756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562634769, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562636472, "dur":82036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562718517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562718531, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562720098, "dur":104490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562824595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562824610, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562826107, "dur":38069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562864183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562864196, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562865906, "dur":29113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562895026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562895039, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562896535, "dur":50516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562947057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007562947068, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007562949133, "dur":69641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007563018781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007563018794, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007563020577, "dur":365647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007563386232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007563386244, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007563387963, "dur":434563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007563822532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706007563822541, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706007563825223, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1706007563825231, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007562525180, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007562525446, "dur":6647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007562532104, "dur":65509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1706007562597618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007562597774, "dur":4400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1706007562602246, "dur":44056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007562646309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007562646320, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007562648002, "dur":274238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007562922247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007562922260, "dur":7582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007562929907, "dur":62814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007562992728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007562992740, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007562994259, "dur":127710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007563121976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007563121988, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007563123579, "dur":328428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007563452012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007563452022, "dur":5128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706007563457229, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1706007563457445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706007563457455, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1706007563459516, "dur":365751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562524982, "dur":446, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562525431, "dur":6660, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562532104, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1706007562532113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562533732, "dur":533, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1706007562534272, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1706007562534357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562534640, "dur":4018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1706007562538661, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1706007562538849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562539308, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1706007562541258, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1706007562541440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562541485, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1706007562543326, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1706007562543493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562543503, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1706007562545651, "dur":18738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562564397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562564409, "dur":4892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562569383, "dur":36483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562605873, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562605925, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562607716, "dur":29950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562637672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562637683, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562640160, "dur":89597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562729763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562729774, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562731188, "dur":77184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562808377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562808388, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562810012, "dur":34363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562844430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007562844443, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007562846244, "dur":179757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007563026006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007563026022, "dur":3247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007563029338, "dur":115771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007563145116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007563145128, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007563146688, "dur":156975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007563303670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007563303682, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007563305195, "dur":266366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007563571567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706007563571596, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706007563573546, "dur":251723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562525392, "dur":147, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562525540, "dur":6583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562532123, "dur":15226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1706007562547353, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562547388, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1706007562549197, "dur":71486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif.exe" }}
+,{ "pid":12345, "tid":7, "ts":1706007562620689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562620698, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif.exe" }}
+,{ "pid":12345, "tid":7, "ts":1706007562622709, "dur":103604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562726320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562726361, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562728251, "dur":50079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562778335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562778346, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562780061, "dur":51998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562832067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562832079, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562833998, "dur":41247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562875253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562875266, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562877110, "dur":45474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562922589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007562922599, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007562924213, "dur":97339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007563021557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007563021570, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007563022967, "dur":200255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007563223227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007563223267, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007563224792, "dur":345283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007563570079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706007563570090, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706007563572457, "dur":252833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007562525467, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007562525467, "dur":6636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007562532105, "dur":15029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1706007562547139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007562547382, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1706007562550091, "dur":35303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007562585401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007562585647, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007562587588, "dur":186702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007562774298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007562774311, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007562776207, "dur":31996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007562808210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007562808224, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007562810130, "dur":92474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007562902613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007562902627, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007562904576, "dur":211176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007563115759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007563115772, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007563118212, "dur":291785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007563410004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007563410017, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007563412106, "dur":308747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007563720860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706007563720869, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706007563722159, "dur":103114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562525521, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562525528, "dur":6570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562532105, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1706007562532443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562546756, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1706007562549048, "dur":5234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1706007562554286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562554294, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1706007562556536, "dur":34296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562590838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562590850, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562592489, "dur":36089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562628584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562628594, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562630512, "dur":39637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562670155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562670168, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562673574, "dur":88527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562762109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562762127, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562763990, "dur":61573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562825569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562825580, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562827154, "dur":78236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562905396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562905438, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562906855, "dur":33101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562939963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007562940008, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007562941582, "dur":83191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007563024779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007563024790, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007563026647, "dur":433855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007563460507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706007563460519, "dur":8520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706007563469114, "dur":356238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562525566, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562525566, "dur":6540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562532107, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1706007562532461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562548257, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1706007562550923, "dur":43819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562594748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562594760, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562597381, "dur":58259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562655645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562655658, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562657871, "dur":62585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562720462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562720473, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562722029, "dur":89166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562811201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562811213, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562812749, "dur":75793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562888551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562888564, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562890007, "dur":42068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562932082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562932095, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562934046, "dur":60290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562994341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007562994351, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007562995676, "dur":143897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007563139581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563139593, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007563141325, "dur":135812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007563277143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563277155, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007563278585, "dur":82605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007563361197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563361243, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007563362732, "dur":75687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007563438425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563438437, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706007563439903, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1706007563439970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563439979, "dur":3186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1706007563443241, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1706007563443312, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563443362, "dur":5285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1706007563448712, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1706007563448893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563448904, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1706007563450377, "dur":1132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1706007563451514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563451525, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1706007563453081, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/data.unity3d" }}
+,{ "pid":12345, "tid":10, "ts":1706007563453149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706007563453158, "dur":58159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/data.unity3d" }}
+,{ "pid":12345, "tid":10, "ts":1706007563511382, "dur":313941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562525633, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562525633, "dur":6488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562532122, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1706007562532426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562534623, "dur":3999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1706007562538883, "dur":15253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1706007562554140, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562554153, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1706007562555722, "dur":72733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007562628460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562628472, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007562630425, "dur":169755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007562800188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562800201, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007562801651, "dur":114145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007562915803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562915817, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007562917369, "dur":69622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007562986999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007562987012, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007562988661, "dur":166921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007563155589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007563155602, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007563157240, "dur":62557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007563219804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007563219817, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007563221439, "dur":321294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007563542738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706007563542748, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706007563544608, "dur":280705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562525704, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562525704, "dur":6405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562532109, "dur":14559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1706007562546672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562546695, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1706007562548878, "dur":51605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562600489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562600499, "dur":17157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562617725, "dur":34815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562652547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562652560, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562654030, "dur":32212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562686249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562687254, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562692251, "dur":47734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562740005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562740018, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562742181, "dur":35544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562777732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562777743, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562779367, "dur":52799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562832171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562832181, "dur":8668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562840937, "dur":54413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562895356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562895366, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562897553, "dur":56761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562954322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007562954335, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007562956306, "dur":135729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007563092042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007563092054, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007563093485, "dur":218801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007563312293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007563312306, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007563314301, "dur":207114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007563521421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706007563521430, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yasin/Desktop/bizimoyun/Strobe- Develop by Yasin And Arif_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706007563522884, "dur":302390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706007563841601, "dur":2405, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1706007563850203, "dur": 4568, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1706007563849719, "dur": 5086, "ph": "X", "name": "Write chrome-trace events", "args": {} },
