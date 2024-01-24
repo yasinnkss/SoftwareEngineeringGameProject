@@ -1,7 +1,8 @@
 Police Isometric Shooter Oyunu Dokümantasyon
 
-**WebGL olarak indirmeden oynamak ve denemek için unity play linki: https://play.unity.com/mg/other/webgl-builds-387781 **
-eğer .exe yi indirip kurmak istemezseniz buradan direkt olarak oynayabilirsiniz. Unitynin play bulutuna kaydedilmiştir.
+**WebGL olarak indirmeden oynamak ve denemek için unity play linki: https://play.unity.com/mg/other/webgl-builds-387781
+
+eğer .exe yi indirip kurmak istemezseniz buradan direkt olarak oynayabilirsiniz. Unitynin play sistemine kaydedilmiştir.
 
 İçindekiler
 
