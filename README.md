@@ -3,14 +3,23 @@ Police Isometric Shooter Oyunu Dokümantasyon
 İçindekiler
 
 Proje Tanımı
+
 Kontroller
+
 Düşmanlar ve Yapay Zeka
+
 Oyuncu Yetenekleri ve Geliştirmeler
+
 Harita ve Ortam Tasarımı
+
 Oyun Akışı ve Görev Sistemi
+
 Ana Menü ve Oyun Ayarları
+
 Grafik ve Ses Tasarımı
+
 Performans ve Optimizasyon
+
 Gelecekteki Güncellemeler ve Ekstralar
 
 1. Proje Tanımı
