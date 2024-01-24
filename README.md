@@ -40,6 +40,7 @@ WASD Tuşları: Oyuncu karakterinin hareketi.
 Sol Fare Tuşu: Ateş etme ve nişan alma.
 Mouse: Kamera kontrolü ve karakter dönüşü.
 Esc Tuşu: Oyun içinde esc tuşu ile oyunu durdurma ve oyun menüsüne erişim.
+Oyuncu mermisi bittiğinde otomatik olarak mermi değiştirir bu süre yaklaşık 3sn sürmektedir.
 
 3. Düşmanlar ve Yapay Zeka
 Oyunun düşman yapısı, gerçekçi ve akıllı bir düşman deneyimi sağlamak için çeşitli stratejilere dayanmaktadır:
@@ -53,6 +54,7 @@ Oyuncunun yetenek seti, oyun içinde ilerledikçe genişler ve çeşitlenir:
 Silah Geliştirmeleri: Oyuncu, puanlarını kullanarak silahlarını güçlendirebilir veya yeni silahlar satın alabilir.
 Yetenek Ağacı: Oyuncu, belirli görevleri tamamlayarak veya seviye atlayarak yetenek puanları kazanır ve bu puanları kullanarak karakterini özelleştirebilir.
 Ekipman Seçenekleri: Oyuncu, farklı zırh setleri, el bombaları ve diğer ekipmanları seçerek oyun tarzını belirleyebilir. Yetenek ağacı içerisinde de ekipman geliştirmeleri bulunabilir.
+
 
 5. Harita ve Ortam Tasarımı
 Oyunun harita ve ortam tasarımı, oyuncunun etkileşimde bulunabileceği çeşitli bölgeler içerir:
