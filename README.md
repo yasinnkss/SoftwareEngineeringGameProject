@@ -4,6 +4,8 @@ Police Isometric Shooter Oyunu Dokümantasyon
 
 eğer .exe yi indirip kurmak istemezseniz buradan direkt olarak oynayabilirsiniz. Unitynin play sistemine kaydedilmiştir.
 
+Kodlamalar GameScripts klasöründedir..!
+
 İçindekiler
 
 Proje Tanımı
